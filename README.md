@@ -12,3 +12,6 @@ Two Jupyter Notebooks were created. The first one is comparison of different mod
 
 #### 3. Speech-to-Text Transcriber with Sentiment Analysis Deployed using FastAPI
 OpenAI's Whisper was used to transcribe three .wav files (2 Text-to-Speech reviews from the Resident Evil 4 Remake reviews and 1 snippet of the IGN's Hades Review). The HuggingFace Sentiment Analysis Model was used to evaluate the transcriptions from the audio files and predict its sentiment (POSITIVE, NEUTRAL, NEGATIVE). This was deployed in FastAPI and a Docker container was created.  
+
+#### 4. Language Detection
+AssemblyAI's Language Detection tutorial deployed in FastAPI and, instead of Heroku, it was deployed in AWS Lambda. AWS services used: ECR, IAM, Lambda.
