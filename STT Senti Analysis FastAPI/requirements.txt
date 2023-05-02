@@ -1,0 +1,5 @@
+whisper
+uvicorn
+fastapi
+transformers
+pydantic
